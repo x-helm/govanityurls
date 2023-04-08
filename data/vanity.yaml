@@ -1,7 +1,11 @@
-# Example vanity.yaml
-
-host: gomodules.xyz
+host: x-helm.dev
 
 paths:
-  /sync:
-    repo: https://github.com/gomodules/sync
+  /apimachinery:
+    repo: https://github.com/x-helm/apimachinery
+  /lib-helm:
+    repo: https://github.com/x-helm/lib-helm
+  /lib-app:
+    repo: https://github.com/x-helm/lib-app
+  /chart-doc-gen:
+    repo: https://github.com/x-helm/chart-doc-gen
